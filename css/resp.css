@@ -1,0 +1,194 @@
+@media(max-width:1200px){
+    .h1 h1{
+        font-size: 4.2rem;
+    }
+    .h1 h2{
+        font-size: 1.7rem;
+    }
+    .h2 img{
+        height: 300px;
+        width: auto;
+    }
+    .a1 h1{
+        font-size: 3.5rem;
+    }
+    .a2 img{
+        height: 100px;
+    }
+}
+@media(max-width:1050px){
+    .home{
+        flex-wrap: wrap-reverse;
+    }
+    .h1{
+        width: 100%;
+        height: 30vh;
+    }
+    .h2{
+        /* border: 2px solid black; */
+        height: 40vh;
+    }
+    .h1 h1{
+        font-size: 3.8rem;
+    }
+    .h1 h2{
+        font-size: 1.3rem;
+    }
+    .h2 img{
+        height: 250px;
+        width: auto;
+    }
+    .about{
+        flex-wrap: wrap;
+        height: fit-content;
+        padding-bottom: 20vh;
+    }
+    .a2 {
+        width: 100%;
+        height: fit-content;
+    }
+    .a1{
+        width: 90%;
+        height: fit-content;
+    }
+    .noteCard{
+        padding: 4% 0px;
+    }
+    .note1{
+        width: 90%;
+    }
+    .noteImg img {
+        height: 300px;
+        width: 250px;
+    }
+
+    .couImg{
+        width: 80%;
+    }
+    .couhead{
+        width: 100%;
+    }
+    .rImg img{
+        height: 50px;
+        width: auto;
+    }
+    .couvidCr{
+        width: 80%;
+        margin: 10px 0px;
+        height: fit-content;
+        padding-bottom: 5px;
+
+    }
+    .couvidCr iframe{
+        width: 100%;
+        
+    }
+}
+@media(max-width:840px){
+    .nav{
+        /* visibility: hidden; */
+        display: none;
+    }
+   
+    .nav1{
+        visibility: visible;
+    }
+    .ham{
+        right: 5px;
+    }
+    .ham1{
+        right: 10px;
+    }
+    .reqCard{
+        height: fit-content;
+        width: 95%;
+        margin: 5vh 0px;
+
+    }
+    .reqCnt{
+        width: 80%;
+        margin: auto;
+    }
+    .reqCnt img{
+        height: 200px;
+        height: 200px;
+    }
+    .reqCmmnt{
+        width: 100%;
+    }
+    .formm form{
+        height: 12vh;
+    }
+    
+}
+@media(max-width:600px){
+    .h1 h1{
+        font-size: 2.1rem;
+    }
+    .h1 h2{
+        font-size: 1.1rem;
+    }
+    .cards{
+        width: 240px;
+    }
+    .crImg{
+        width: 240px;
+
+    }
+    .cLink{
+        width: 240px;
+    }
+    .noteCard{
+        padding: 6% 0px;
+    }
+    .note1{
+        width: 98%;
+        flex-wrap: wrap;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .ntCnt p{
+        font-size: 16px;
+
+    }
+    .noteImg img {
+        height: 250px;
+        width: 250px;
+    }
+    .a1 h1{
+        font-size: 2.3rem;
+    }
+    .modal-content{
+        width: 80%;
+    }
+    .chat_icon{
+        right: 10px;
+    }
+    .chatbox{
+        width: 340px;
+        right: 0;
+        font-size: 14px;
+    }
+    .chatbox input{
+        width: 80%;
+    }
+    .input{
+        width: 60%;
+    }
+    .errorImg{
+        margin-bottom: 20px;
+    }
+    .errMsg{
+        height: 15vh;
+    }
+    .errMsg h2{
+        font-size: 16px;
+
+    }
+    .feildss{
+        font-size: 15px;
+        padding: 3%;
+    }
+}

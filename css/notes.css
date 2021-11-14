@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.notes{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.noteCard{
+    width: 80%;
+    height: fit-content;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2% 0px;
+
+}
+.note1{
+    width: 80%;
+    height: 300px;
+    /* border: 2px solid black; */
+    margin:3vh 0px ;
+    display: flex;
+    box-shadow: 2px 4px 10px 10px rgba(128, 128, 128, 0.349);
+
+}
+.ntCnt{
+    padding: 2%;
+}
+.ntCnt p{
+    margin: 10px 0px;
+    font-size: 18px;
+}
+.nBtn{
+    background-color: #28a745;
+    height: 45px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+.nBtn a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.nBtn:hover{
+    background-color: #208a39;
+    cursor: pointer;
+
+}
+.noteImg img{
+    height: 300px;
+    width: 300px;
+}

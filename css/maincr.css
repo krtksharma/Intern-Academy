@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15vh 0px;
+}
+.courses{
+    height: fit-content;
+    width: 90%;
+    border: 2px solid transparent;
+    box-shadow: 4px 4px 6px 8px rgba(128, 128, 128, 0.274);
+    padding: 1%;
+
+
+}
+.coucnt{
+    width: 100%;
+    height: fit-content;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.couImg{
+    height: 40vh;
+    width: 50%;
+    /* border: 2px solid black; */
+    
+}
+.couImg img{
+    width: 100%;
+    height: 100%;
+    
+}
+.couhead{
+    width: 40%;
+    height: fit-content;
+    /* border: 2px solid black; */
+}
+.couhead1{
+    padding: 5%;
+}
+.couhead1 h1{
+    margin-bottom: 10px;
+}
+.rImg img{
+    height: 80px;
+    width: auto;
+    /* border: 2px solid black; */
+}
+.couvid{
+    height: fit-content;
+    width: 100%;
+    flex-wrap: wrap;
+    border: 2px solid transparent;
+    box-shadow: 2px 3px 6px 8px rgba(134, 133, 133, 0.377);
+    margin-top:20px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+.couvidCr{
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.couvidCr iframe{
+    width: 400px;
+    height: 250px;
+    border-radius: 20px 20px 0px 0px;
+}
+.tags{
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.tags button{
+    height: 30px;
+    padding: 0px 10px;
+    background-color: #28a745;
+    color: white;
+    font-size: 18px;
+    border: 2px solid transparent;
+    border-radius: 12px;
+}
+
+.doNotes{
+    width: 100%;
+    height: fit-content;
+    /* border: 2px solid black; */
+    margin-top:5vh ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+}
+.nbody{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.note1{
+    width: 40%;
+    height: 300px;
+    /* border: 2px solid black; */
+    margin:3vh 0px ;
+    display: flex;
+    box-shadow: 2px 4px 10px 10px rgba(128, 128, 128, 0.349);
+
+}
+.ntCnt{
+    padding: 2%;
+}
+.ntCnt p{
+    margin: 10px 0px;
+    font-size: 18px;
+}
+.nBtn{
+    background-color: #28a745;
+    height: 45px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+.nBtn a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.nBtn:hover{
+    background-color: #208a39;
+    cursor: pointer;
+
+}
+.noteImg img{
+    height: 300px;
+    width: 300px;
+}

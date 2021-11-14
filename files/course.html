@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning App</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/course.css">
+    <link rel="stylesheet" href="../css/resp.css">
+    <style>
+        .modal1 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content */
+
+.modal-content1 {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+    height: 50vh;
+}
+.closee1,.closee2{
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.closee1:hover, .closee1:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.closee2:hover, .closee2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+    </style>
+
+</head>
+
+<body>
+    <nav>
+        <div class="nav">
+            <div class="left">
+                <!-- <img src="" alt=""> -->
+                <a href="../index.html"><img src="../images/tutlogo.png" alt=""></a>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="course.html">Courses</a></li>
+                    <li><a href="#" onclick="errors()">Requests</a></li>
+                    <li><a href="#" onclick="errors()">Build Connections</a></li>
+                    <div class="login">
+                        <button class="login1" id="myBtn" onclick="modal()">Sign in</button>
+                    </div>
+                </ul>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="nav1" id="nav1">
+            <div class="left1">
+                <!-- <img src="" alt=""> -->
+                <!-- <h1>Logo</h1> -->
+                <a href="../index.html"><img src="../images/tutlogo.png" alt=""></a>
+
+            </div>
+            <div class="right1" id="right">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="course.html">Courses</a></li>
+                    <li><a href="#" onclick="error()">Requests</a></li>
+                    <li><a href="#" onclick="error()">Build Connections</a></li>
+                    <div class="login1">
+                        <button class="login1" id="myBtn1" onclick="modal()">Sign in</button>
+                    </div>
+                </ul>
+            </div>
+            <div class="ham-icon1" onclick="visible()"><img src="../images/ham.png" class="ham"></div>
+            <div class="ham-icon1" onclick="visible1()"><img src="../images/cross.png" class="ham1"></div>
+
+
+
+
+        </div>
+
+    </nav>
+
+    <!-- nav ends here -->
+    <!-- main section starts from here -->
+    <main>
+        <div class="chead">
+            <h1>We recommend Best Courses</h1>
+        </div>
+        <div class="courseVideo">
+            <div class="cmain">
+                <div class="cohead">
+                    <h2>Master Programming Languages</h2>
+                </div>
+
+                <div class="courses">
+                    <div class="crcards">
+                        <img src="https://sparc.org.in/wp-content/uploads/2018/12/best-C-Programming-training-gtb-nagar-sparc-academy.jpg"
+                            alt="">
+                        <div class="crBtns">
+                            <a href="../kartik/cprog.html">Start Learning</a>
+                        </div>
+
+                    </div>
+                    <div class="crcards">
+                        <img src="https://www.simplilearn.com/ice9/webinar_thum_image/CPP_Tutorial.jpg" alt="">
+                        <div class="crBtns">
+                            <a href="../kartik/dsa_with_cpp.html">Start Learning</a>
+                        </div>
+
+                    </div>
+                    
+                    <div class="crcards">
+                        <img src="https://content.techgig.com/thumb/msid-80100245,width-860,resizemode-4/8-Steps-to-master-Python-programming-for-Data-Science.jpg?88712"
+                            alt="">
+                        <div class="crBtns">
+                            <a href="../kartik/python.html">Start Learning</a>
+                        </div>
+
+
+                    </div>
+                    <div class="crcards">
+                        <img src="https://5.imimg.com/data5/QQ/CT/AO/GLADMIN-25397883/selection-064-500x500.png" alt="">
+                        <div class="crBtns">
+                            <a
+                                href="https://www.youtube.com/watch?v=ntLJmHOJ0ME&list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q">Start
+                                Learning</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="cmain">
+                <div class="cohead">
+                    <h2>Master Web Development</h2>
+                </div>
+                <div class="courses">
+                    <div class="crcards">
+                        <img src="https://play-lh.googleusercontent.com/85WnuKkqDY4gf6tndeL4_Ng5vgRk7PTfmpI4vHMIosyq6XQ7ZGDXNtYG2s0b09kJMw"
+                            alt="">
+                        <div class="crBtns">
+                            <a href="../kartik/maincourse1.html">Start Learning</a>
+                        </div>
+                    </div>
+
+                    <div class="crcards">
+                        <img src="../images/css.jfif" alt="">
+                        <div class="crBtns">
+                            <a href="../kartik/css_page.html">Start Learning</a>
+                        </div>
+
+                    </div>
+                    <div class="crcards">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2PwRQttmK18ZBYWADrccj8tjjsnIWtDFvqQ&usqp=CAU"
+                            alt="">
+                        <div class="crBtns">
+                            <a
+                                href="https://www.youtube.com/watch?v=PlbupGCBV6w&list=PLsyeobzWxl7rrvgG7MLNIMSTzVCDZZcT4">Start
+                                Learning</a>
+                        </div>
+
+
+                    </div>
+                    <div class="crcards">
+                        <img src="https://miro.medium.com/max/1200/1*pE2fOVDikEUwiQJlh4ggzg.jpeg" alt="">
+                        <div class="crBtns">
+                            <a href="https://www.youtube.com/watch?v=Q33KBiDriJY">Start Learning</a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="cmain">
+                <div class="cohead">
+                    <h2>Other Important Courses</h2>
+                </div>
+                <div class="courses">
+                    <div class="crcards">
+                        <img src="https://i.ytimg.com/vi/DuDz6B4cqVc/maxresdefault.jpg" alt="">
+                        <div class="crBtns">
+                            <a
+                                href="../kartik/dsa_with_cpp.html">Start
+                                Learning</a>
+                        </div>
+                    </div>
+                    <div class="crcards">
+                        <img src="../images/data.jpeg" alt="">
+                        <div class="crBtns">
+                            <a
+                                href="https://www.youtube.com/watch?v=5_5oE5lgrhw&list=PLu0W_9lII9ahIappRPN0MCAgtOu3lQjQi">Start
+                                Learning</a>
+                        </div>
+                    </div>
+
+                    <div class="crcards">
+                        <img src="../images/github.png" alt="">
+                        <div class="crBtns">
+                            <a
+                                href="https://www.youtube.com/watch?v=vunhMBRfhL8&list=PLu0W_9lII9ahVQekD7ePHmnirTePXwIln">Start
+                                Learning</a>
+                        </div>
+
+                    </div>
+
+                    <!-- <div class="crcards">
+                        <img src="https://miro.medium.com/max/1200/1*pE2fOVDikEUwiQJlh4ggzg.jpeg" alt="">
+                        <div class="crBtns">
+                            <a href="https://www.youtube.com/watch?v=Q33KBiDriJY">Start Learning</a>
+                        </div>
+
+                    </div> -->
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="links">
+            <h2>Connect with Us</h2>
+            <div class="link1">
+                <a href=""><img src="../images/facebook.png" alt=""></a>
+                <a href=""><img src="../images/instagram.png" alt=""></a>
+                <a href=""><img src="../images/github.png" alt=""></a>
+                <a href=""><img src="../images/linkedin.png" alt=""></a>
+            </div>
+        </div>
+
+        <h3>Created by team TheD_coders</h3>
+
+    </footer>
+
+    <!-- Sign In Form big screen  -->
+    <div id="myModal" class="modal1">
+        <div class="modal-content1">
+            <span class="close">&times;</span>
+            <div class="form">
+                <form onsubmit="return validate()" action="../index1.html">
+                    <div class="feild">
+                        <label for="uname">Enter Your Username</label>
+                        <input class="finput" type="text" id="uname">
+                    </div>
+                    <div class="feild">
+                        <label for="pass">Enter Your Password</label>
+                        <input class="finput" type="text" id="pass">
+                    </div>
+                    <div class="feild ">
+                        <div class="feilds">
+                        <input class="smtBtn" type="submit" value="Log IN">
+                        <p >New Here?<a href="#" onclick="signUp()">Create Account</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <!-- Sign In Form small screen  -->
+    <div id="myModal1" class="modal1">
+        <div class="modal-content1">
+            <span class="closee1">&times;</span>
+            <div class="form">
+                <form action="">
+                    <div class="feild">
+                        <label for="uname2">Enter Your Name</label>
+                        <input class="finput" type="text" id="uname2">
+                    </div>
+                    <div class="feild">
+                        <label for="email">Enter Your Email Id</label>
+                        <input class="finput" type="text" id="email">
+                    </div>
+                    <div class="feild">
+                        <label for="pass2">Create Password</label>
+                        <input class="finput" type="text" id="pass2">
+                    </div>
+                    <div class="feild">
+                        <div class="feilds">
+                        <button class="smtBtn">Sign Up</button>
+                        <p >Have Account ?<a href="#" onclick="signIn()">Login</a></p>
+
+                    </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- error modal  -->
+    
+    <div id="myModal2" class="modal1">
+        <div class="modal-content1">
+            <span class="closee2">&times;</span>
+            <div class="form">
+                <form action="">
+                    <div class="feild">
+                        <label for="uname2">Enter Your Name</label>
+                        <input class="finput" type="text" id="uname2">
+                    </div>
+                    <div class="feild">
+                        <label for="email">Enter Your Email Id</label>
+                        <input class="finput" type="text" id="email">
+                    </div>
+                    <div class="feild">
+                        <label for="pass2">Create Password</label>
+                        <input class="finput" type="text" id="pass2">
+                    </div>
+                    <div class="feild">
+                        <div class="feilds">
+                        <button class="smtBtn">Sign Up</button>
+                        <p >Have Account ?<a href="#" onclick="signIn()">Login</a></p>
+
+                    </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+   
+</body>
+<!-- <script src="../javascript/index.js"></script> -->
+<script src="../javascript/index1.js"></script>
+
+
+<script>
+    function validate() {
+        let x = document.getElementById("uname").value;
+        let y = document.getElementById("pass").value;
+
+        if (x == null || x == "") {
+            alert("Name can't be blank");
+            return false;
+        }else if(x.length < 6){
+            alert("Must be 6 alphabets");
+        }
+         else if (y.length <= 8) {
+            alert("Password Must be greater than 8 digits");
+            return false;
+        } else {
+            alert("Login Succesful");
+        }
+    }
+
+    function errors(){
+        alert("Sign In must for performing this Action");
+    }
+</script>
+
+</html>
